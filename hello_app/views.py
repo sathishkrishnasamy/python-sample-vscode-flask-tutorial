@@ -15,7 +15,7 @@ def contact():
     return render_template("contact.html")
 
 @app.route("/support/")
-def contact():
+def support():
     return render_template("support.html")
 
 @app.route("/hello/")
